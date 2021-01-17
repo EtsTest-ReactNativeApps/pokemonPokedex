@@ -9,7 +9,7 @@ Currently the app has been built for web and ios use and has yet to be tested on
 
 ## Screenshots
 
-![Landing Page](assets/Screenshots/IMG_2066.PNG)
+![Landing Page](assets/Screenshots/IMG_2066.PNG | height=100)
 
 ![Card extra information](assets/Screenshots/IMG_2067.PNG)
 
