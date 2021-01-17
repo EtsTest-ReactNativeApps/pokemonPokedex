@@ -9,7 +9,9 @@ Currently the app has been built for web and ios use and has yet to be tested on
 
 ## Screenshots
 
-![Landing Page](assets/Screenshots/IMG_2066.PNG | height=100)
+<img src="https://github.com/masasa01/pokemonPokedex/blob/master/assets/Screenshots/IMG_2066.PNG" height='100' width='30' />
+
+![Landing Page](assets/Screenshots/IMG_2066.PNG)
 
 ![Card extra information](assets/Screenshots/IMG_2067.PNG)
 
