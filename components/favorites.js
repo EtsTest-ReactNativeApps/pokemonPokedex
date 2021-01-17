@@ -24,13 +24,12 @@ const CardInformation = ({ pokemon, handleFavorites }) => {
 
 const NoFavorites = () => {
     return (
-        <ImageBackground style={styles.background} source={require('../assets/background-image.jpg')}>
+        <View style={[globalStyle.container, styles.background]}>
             <View style={styles.bodyNoFavorites}>
                 <Text style={[globalStyle.text, styles.textNoFavorites]}>You currently have no favorite pokemon</Text>
 
             </View>
-
-        </ImageBackground>
+        </View>
     )
 }
 
@@ -41,13 +40,13 @@ export default function Favorites({ favorites, handleFavorites }) {
     }
 
     return (
-            <ImageBackground style={[globalStyle.container, styles.background]} source={require('../assets/background-image.jpg')}>
+            <View style={[globalStyle.container, styles.background]}>
                 <FlatList 
                     data={favorites}
                     renderItem={({item}) => <CardInformation pokemon={item} handleFavorites={handleFavorites}/>}
                     keyExtractor={item => item.id}
                 />
-            </ImageBackground>
+            </View>
     )
 }
 
@@ -67,7 +66,8 @@ const styles = StyleSheet.create({
     background: {
         flex: 1,
         resizeMode: 'cover',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        backgroundColor: '#dddddd'
     },
     body: {
         width: '75%',

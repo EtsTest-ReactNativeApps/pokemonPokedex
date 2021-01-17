@@ -1,5 +1,5 @@
 import React from 'react';
-import { FlatList, ImageBackground, StyleSheet } from 'react-native';
+import { FlatList, View, StyleSheet } from 'react-native';
 import { globalStyle } from '../styles/globalStyle';
 
 import PokemonCard from './pokemonCard';
@@ -8,7 +8,7 @@ import PokemonCard from './pokemonCard';
 export default function Home({ allPokemon, handleFavorites}) {
 
     return (
-        <ImageBackground style={[globalStyle.container, styles.background]} source={require('../assets/background-image.jpg')}>
+        <View style={[globalStyle.container, styles.background]}>
             <FlatList 
                 data={allPokemon}
                 renderItem={ ({item}) => <PokemonCard pokemon={item} handleFavorites={handleFavorites} />}
@@ -19,13 +19,14 @@ export default function Home({ allPokemon, handleFavorites}) {
                 )}
             />
         
-        </ImageBackground>
+        </View>
     )
 }
 
 const styles = StyleSheet.create({
     background: {
         resizeMode: 'cover',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        backgroundColor: '#dddddd'
     }
 })
