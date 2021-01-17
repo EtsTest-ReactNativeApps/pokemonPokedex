@@ -9,19 +9,19 @@ Currently the app has been built for web and ios use and has yet to be tested on
 
 ## Screenshots
 
-Landing Page
+### Landing Page
 <img src="https://github.com/masasa01/pokemonPokedex/blob/master/assets/Screenshots/IMG_2066.PNG" height='812' width='375' />
 
-Detailed Card Information
+### Detailed Card Information
 <img src="https://github.com/masasa01/pokemonPokedex/blob/master/assets/Screenshots/IMG_2067.PNG" height='812' width='375' />
 
-Liked Card
+### Liked Card
 <img src="https://github.com/masasa01/pokemonPokedex/blob/master/assets/Screenshots/IMG_2069.PNG" height='812' width='375' />
 
-List of liked cards
+### List of liked cards
 <img src="https://github.com/masasa01/pokemonPokedex/blob/master/assets/Screenshots/IMG_2071.PNG" height='812' width='375' />
 
-No liked cards message
+### No liked cards message
 <img src="https://github.com/masasa01/pokemonPokedex/blob/master/assets/Screenshots/IMG_2072.PNG" height='812' width='375' />
 
 ## Download link
