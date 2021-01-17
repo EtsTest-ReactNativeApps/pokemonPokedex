@@ -9,17 +9,20 @@ Currently the app has been built for web and ios use and has yet to be tested on
 
 ## Screenshots
 
-<img src="https://github.com/masasa01/pokemonPokedex/blob/master/assets/Screenshots/IMG_2066.PNG" height='100' width='30' />
+Landing Page
+<img src="https://github.com/masasa01/pokemonPokedex/blob/master/assets/Screenshots/IMG_2066.PNG" height='812' width='375' />
 
-![Landing Page](assets/Screenshots/IMG_2066.PNG)
+Detailed Card Information
+<img src="https://github.com/masasa01/pokemonPokedex/blob/master/assets/Screenshots/IMG_2067.PNG" height='812' width='375' />
 
-![Card extra information](assets/Screenshots/IMG_2067.PNG)
+Liked Card
+<img src="https://github.com/masasa01/pokemonPokedex/blob/master/assets/Screenshots/IMG_2069.PNG" height='812' width='375' />
 
-![Liked Card](assets/Screenshots/IMG_2069.PNG)
+List of liked cards
+<img src="https://github.com/masasa01/pokemonPokedex/blob/master/assets/Screenshots/IMG_2071.PNG" height='812' width='375' />
 
-![Favotites Page, liked cards](assets/Screenshots/IMG_2071.PNG)
-
-![Favorites Page, no liked cards](assets/Screenshots/IMG_2072.PNG)
+No liked cards message
+<img src="https://github.com/masasa01/pokemonPokedex/blob/master/assets/Screenshots/IMG_2072.PNG" height='812' width='375' />
 
 ## Download link
 The app is currently not published on the Play store or the iOS store but can be downloaded via the following link on [Expo](https://expo.io/@samsonmasanga/projects/pokemonPokedex).
