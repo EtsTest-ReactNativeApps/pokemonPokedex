@@ -28,6 +28,6 @@ Currently the app has been built for web and ios use and has yet to be tested on
 The app is currently not published on the Play store or the iOS store but can be downloaded via the following link on [Expo](https://expo.io/@samsonmasanga/projects/pokemonPokedex).
 
 ## Installation instructions
-To test the app locally on your machine, download the repo and unzip the files.
+To run the app locally on your machine, download the repo and unzip the files.
 
-Open the command line tool of your choice and navigate to the root level of the project './pokemonPokedex'. Then type the command: ```yarn android``` for android and ```yarn web``` for web.
+Open the command line tool of your choice and navigate to the root level of the project './pokemonPokedex'. Then type the command: ```yarn android``` for android and ```yarn web``` for web. You can also run ```expo start``` to launch the expo cli.
