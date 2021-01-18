@@ -25,7 +25,7 @@ Currently the app has been built for web and ios use and has yet to be tested on
 <img src="https://github.com/masasa01/pokemonPokedex/blob/master/assets/Screenshots/IMG_2072.PNG" height='812' width='375' />
 
 ## Download link
-The app is currently not published on the Play store or the iOS store but can be downloaded via the following link on [Expo](https://expo.io/@samsonmasanga/projects/pokemonPokedex).
+The app is currently not published on the Play store or the iOS store but can be viewed on the Expo app. To get a download link you can visit the app's profile page on [Expo](https://expo.io/@samsonmasanga/projects/pokemonPokedex).
 
 ## Installation instructions
 To run the app locally on your machine, download the repo and unzip the files.
