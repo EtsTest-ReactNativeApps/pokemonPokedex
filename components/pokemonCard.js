@@ -103,6 +103,8 @@ const styles = StyleSheet.create({
         alignSelf: 'center',
         marginTop: 50,
         borderRadius: 20,
+        borderColor: 'purple',
+        borderWidth: 0.4,
         elevation: 10,
         shadowColor: 'blue',
         shadowOpacity: 0.5,

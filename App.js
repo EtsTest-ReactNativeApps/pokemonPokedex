@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { View, ActivityIndicator } from 'react-native';
 
 import Home from './components/home';
@@ -39,11 +39,11 @@ export default function App() {
   const [allPokemon, setAllPokemon] = useState([]);
   const [favoritePokemon, setFavoritePokemon] = useState([]);
 
-  const goToFavorites = () => {
+  const goToFavorites = useCallback(() => {
     setIsFavorites(!isFavorites);
-  }
+  },[isFavorites])
 
-  const handleFavorites = (pokemon) => {
+  const handleFavorites = useCallback((pokemon) => {
     if (!pokemon.liked) {
       pokemon.liked = true;
       setFavoritePokemon([...favoritePokemon, pokemon]);
@@ -52,7 +52,7 @@ export default function App() {
       pokemon.liked = false;
       setFavoritePokemon(favoritePokemon.filter(thisPokemon => thisPokemon !== pokemon));
     }
-  }
+  },[favoritePokemon])
 
   useEffect(() => {
     let mounted = true;
