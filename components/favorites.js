@@ -24,20 +24,14 @@ const CardInformation = ({ pokemon, handleFavorites }) => {
 
 const NoFavorites = () => {
     return (
-        <View style={[globalStyle.container, styles.background]}>
-            <View style={styles.bodyNoFavorites}>
-                <Text style={[globalStyle.text, styles.textNoFavorites]}>You currently have no favorite pokemon</Text>
+        <View style={styles.bodyNoFavorites}>
+            <Text style={[globalStyle.text, styles.textNoFavorites]}>You currently have no favorite pokemon</Text>
 
-            </View>
         </View>
     )
 }
 
 export default function Favorites({ favorites, handleFavorites }) {
-
-    if (favorites?.length == 0) {
-        return <NoFavorites />
-    }
 
     return (
             <View style={[globalStyle.container, styles.background]}>
@@ -45,6 +39,7 @@ export default function Favorites({ favorites, handleFavorites }) {
                     data={favorites}
                     renderItem={({item}) => <CardInformation pokemon={item} handleFavorites={handleFavorites}/>}
                     keyExtractor={item => item.id}
+                    ListEmptyComponent={<NoFavorites />}
                 />
             </View>
     )
@@ -112,7 +107,7 @@ const styles = StyleSheet.create({
         shadowOffset: {height: 5, width: 5},
         shadowRadius: 5,
         backgroundColor: 'white',
-        marginBottom: 100
+        marginTop: 200
     },
     textNoFavorites: {
         marginLeft: 20
